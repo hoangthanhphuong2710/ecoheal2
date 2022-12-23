@@ -1,0 +1,41 @@
+[
+  {
+    "img_url": "../granola vani.jpg",
+    "name": "Granola Vani",
+    "icon1_url": "../đã bán.png",
+    "sold": "159",
+    "icon2_url": "../ngôi sao.png",
+    "star": "4.5",
+    "price_goc": "130.000",
+    "price": "104.000"
+  },
+  {
+    "img_url": "../granola matcha.jpg",
+    "name": "Granola Matcha",
+    "icon1_url": "../đã bán.png",
+    "sold": "210",
+    "icon2_url": "../ngôi sao.png",
+    "star": "4.8",
+    "price_goc": "130.000",
+    "price": "104.000"
+  },
+  {
+    "img_url": "../granola choco.jpg",
+    "name": "Granola Choco",
+    "icon1_url": "../đã bán.png",
+    "sold": "140",
+    "icon2_url": "../ngôi sao.png",
+    "star": "4.7",
+    "price_goc": "130.000",
+    "price": "104.000"
+  },
+  {
+    "img_url": "../granola cookies.jpg",
+    "name": "Granola Cookies",
+    "icon1_url": "../đã bán.png",
+    "sold": "137",
+    "icon2_url": "../ngôi sao.png",
+    "price_goc": "130.000",
+    "price": "104.000"
+  }
+]

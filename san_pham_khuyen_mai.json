@@ -1,0 +1,46 @@
+[
+  {
+    "img_url": "../img/granolavani.jpg",
+    "name": "Granola Vani",
+    "icon1_url": "../img/da_ban.png",
+    "sold": "159",
+    "icon2_url": "../img/ngoi_sao.png",
+    "star": "4.5",
+    "price_goc": "130.000",
+    "price": "104.000",
+    "link": "../src/Chi_tiet_sp_granolavani_khuyen_mai.html"
+  },
+  {
+    "img_url": "../img/granolamatcha.jpg",
+    "name": "Granola Matcha",
+    "icon1_url": "../img/da_ban.png",
+    "sold": "210",
+    "icon2_url": "../img/ngoi_sao.png",
+    "star": "4.8",
+    "price_goc": "130.000",
+    "price": "104.000",
+    "link": "../src/Chi_tiet_sp_granolamatcha_khuyen_mai.html"
+  },
+  {
+    "img_url": "../img/granolachoco.jpg",
+    "name": "Granola Choco",
+    "icon1_url": "../img/da_ban.png",
+    "sold": "140",
+    "icon2_url": "../img/ngoi_sao.png",
+    "star": "4.7",
+    "price_goc": "130.000",
+    "price": "104.000",
+    "link": "../src/Chi_tiet_sp_granolachoco_khuyen_mai.html"
+  },
+  {
+    "img_url": "../img/granolacookies.jpg",
+    "name": "Granola Cookies",
+    "icon1_url": "../img/da_ban.png",
+    "sold": "137",
+    "icon2_url": "../img/ngoi_sao.png",
+    "star": "4.7",
+    "price_goc": "130.000",
+    "price": "104.000",
+    "link": "../src/Chi_tiet_sp_granolacookies_khuyen_mai.html"
+  }
+]
