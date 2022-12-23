@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>headerHN</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <style>
+    body{
+      margin: 0;
+      width: 1728px;
+  }
+  @font-face{
+      src:url(./Inter-VariableFont_slnt\,wght.ttf);
+      font-family: inter;
+  }
+
+  /*Header*/
+  .header {
+      display: flex;
+      background: #9CCD62;
+      font-family: inter;
+      position: relative;
+    }
+  .header a{
+      text-decoration: none;
+      font-size: 28px;
+      margin: 35px 0px 0px 35px ;
+      color: black;
+    }
+  .header_logo {
+      margin: 11px 0px 11px 27px;
+    }
+  .header_search{
+      margin: 25px 0px 0px 35px ;
+      position: relative;
+    }
+  .header_search_input{
+      width: 269px;
+      height: 45px;
+      border: 1px solid #646464;
+      border-radius: 20px;
+      background-color:rgba(255, 255, 255, 0);
+      font-size: 24px;
+      padding-left: 15px;
+    }  
+  .header_search i{
+      position: absolute;
+      top: 22px;
+      left: 230px;
+      color:#646464;
+    }
+  .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .content{
+    margin-top: 154.2px;
+  }
+  .logo_avt{
+    margin: 20px 7px 11px 27px;
+    width: 55px;
+    height: 55px;
+}
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img class="logo_avt" src="../img/header_01_logo.png" class="header_logo"/>
+      <a class="a" href="./homepage.html">Trang chủ</a>
+      <a class="a" href="./vechungtoi.html">Về Chúng Tôi</a>
+      <a class="a" href="./menu.html">Menu</a>
+      <a class="a" href="./news.html">Tin tức</a>
+      <a class="a" href="./khuyen_mai.html">Khuyến Mãi</a>
+      <div class="header_search">
+          <input class="header_search_input" type="text" placeholder="Tìm kiếm"/><i class="fa fa-search fa-lg"></i>
+      </div>
+      <a class="a" href="./dangnhap.html">Đăng Ký/ Đăng Nhập</a>
+      <a href="./giohang.html"><img src="../img/header_02_cart.png" class="header_cart" /></a>
+  </div>
+  <div class="content">
+
+  </div>
+</body>
+</html>

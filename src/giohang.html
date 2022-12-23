@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gio hang</title>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+<script defer>
+    function congTruSoLuong(type) {
+        const content = document.getElementById('soluong');
+        var ketqua1 = parseInt(content.innerHTML);
+    
+        if (type == 'cong') ketqua1++;
+        else {
+            if (ketqua1 > 1) ketqua1--;
+        }
+    
+        content.innerHTML = ketqua1;
+    }
+
+    function congTruSoLuong2(type) {
+        const content = document.getElementById('soluong2');
+        var ketqua2 = parseInt(content.innerHTML);
+    
+        if (type == 'cong') ketqua2++;
+        else {
+            if (ketqua2 > 1) ketqua2--;
+        }
+    
+        content.innerHTML = ketqua2;
+    }
+
+    function tinhTong(){
+        const content1 = document.getElementById('soluong');
+        var ketqua1 = parseInt(content1.innerHTML);
+        content.innerHTML = ketqua1;
+        let soTien1 = 0;
+        soTien1 = ketqua1 * 110000;
+        console.log(soTien1);
+        const content2 = document.getElementById('soluong2');
+        var ketqua2 = parseInt(content2.innerHTML);
+        content.innerHTML = ketqua2;
+        document.getElementById("thanhtien1").value = `${soTien1}$`; 
+        let soTien2 = 0;
+        soTien2 = ketqua2 * 110000;
+        document.getElementById("thanhtien2").value = `${soTien2}$`; 
+    }
+</script>
+
+    <style>
+        body{
+            margin: 0;
+            width: 1728px;
+        }
+        @font-face{
+            src:url(./Inter-VariableFont_slnt\,wght.ttf);
+            font-family: inter;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #ddd;
+            margin-top: 80px;
+          }
+        th, td {
+            text-align: left;
+            padding: 16px;
+        }
+        .imgSP{
+            height: 80px;
+            width: 80px;
+        }
+        .a{
+            color: red;
+        }
+        .buttons_added {
+            opacity:1;
+            display:inline-block;
+            display:-ms-inline-flexbox;
+            display:inline-flex;
+            white-space:nowrap;
+            vertical-align:top;
+        }
+        .is-form {
+            overflow:hidden;
+            position:relative;
+            background-color:#f9f9f9;
+            height:2.2rem;
+            width:1.9rem;
+            padding:0;
+            text-shadow:1px 1px 1px #fff;
+            border:1px solid #ddd;
+        }
+        .is-form:focus,.input-text:focus {
+            outline:none;
+        }
+        .is-form.minus {
+            border-radius:4px 0 0 4px;
+        }
+        .is-form.plus {
+            border-radius:0 4px 4px 0;
+        }
+        .input-qty {
+            background-color:#fff;
+            height:2.2rem;
+            text-align:center;
+            font-size:1rem;
+            display:inline-block;
+            vertical-align:top;
+            margin:0;
+            border-top:1px solid #ddd;
+            border-bottom:1px solid #ddd;
+            border-left:0;
+            border-right:0;
+            padding:0;
+        }
+        .input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
+            --webkit-appearance:none;
+            margin:0;
+        }
+        .btn-block{
+            text-align: center;
+        }
+        .button1{
+            height: 40px;
+            border-radius: 10px;
+            border-color: white;
+            cursor: pointer;
+            margin-top: 80px;
+            margin-right: 20px;
+            margin-left: 20px;
+            padding-bottom: 45px
+        }
+        .button2{
+            height: 40px;
+            border-radius: 10px;
+            border-color: white;
+            cursor: pointer;
+            margin-top: 80px;
+            margin-right: 20px;
+            margin-left: 20px;
+            padding-bottom: 45px
+        }
+        .button1:hover{
+            background-color: rgb(136, 175, 154);
+        }
+        .button2:hover{
+            background-color: rgb(136, 175, 154);
+        }
+        .button1{
+            width: 300px;
+            background-color: #c4c4c4;
+        }
+        .button2{
+            width: 200px;
+            background-color: #9CCD62;
+        }
+        .buttonSL{
+            cursor: pointer;
+            border-color: #c4c4c4;
+            margin: 0 20px;
+        }
+    </style>
+</head>
+<body>
+    <p w3-include-html="./headeruser.html"></p>
+    <script>
+      w3.includeHTML();
+    </script>
+    <table>
+        <tr>
+            <th></th>
+            <th colspan="2">Tên Sản Phẩm</th>
+            <th>Loại</th>
+            <th>Đơn Giá</th>
+            <th>Số Lượng</th>
+            <th>Thành Tiền</th>
+            <th>Thao Tác</th>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td style="width: 80px;"><img src="../img/biscotti matcha FIX1.jpg" class="imgSP"></td>
+            <td>Biscotti Trà Xanh</td>
+            <td>250g</td>
+            <td>110.000VNĐ</td>
+            <td>
+                <div class="buttons_added">
+                    <!-- <input class="minus is-form" type="button" value="-" 
+                    onclick="">
+                    <input aria-label="quantity" class="input-qty" max="100" min="1" name="" type="number" value="">
+                    <input class="plus is-form" type="button" value="+"> -->
+                    <button class="buttonSL"><span class='math-button'onclick='congTruSoLuong("tru")' onclick="tinhTien1()">-</span></button>
+                    <span id='soluong'>1</span >
+                    <button class="buttonSL"><span class='math-button'onclick='congTruSoLuong("cong")'>+</span></button>
+                </div>
+            </td>
+            <td><input type="text" id="thanhtien1" value="110.000VNĐ"></td>
+            <td><a href="" class="a">Xóa</a></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td style="width: 80px;"><img src="../img/biscotti choco 1.jpg" class="imgSP"></td>
+            <td>Biscotti Choco</td>
+            <td>250g</td>
+            <td>110.000VNĐ</td>
+            <td>
+                <div class="buttons_added">
+                    <!-- <input class="minus is-form" type="button" value="-" 
+                    onclick="">
+                    <input aria-label="quantity" class="input-qty" max="100" min="1" name="" type="number" value="">
+                    <input class="plus is-form" type="button" value="+"> -->
+                    <button class="buttonSL"><span class='math-button'onclick='congTruSoLuong2("tru")'>-</span></button>
+                    <span id='soluong2' > 1</span >
+                    <button class="buttonSL"><span class='math-button'onclick='congTruSoLuong2("cong")'>+</span></button>
+                </div>
+
+            </td>
+            <td><input type="text" id="thanhtien1"  value="110.000VNĐ"></td>
+            <td><a href="" class="a">Xóa</a></td>
+        </tr>
+        <tr style="margin-top: 200px;">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><h3>Tổng tiền</h3></td>
+            <td><input style="color: red;" type="text" id="total"  value="220.000VNĐ"></td>
+            <td></td>
+        </tr>
+      </table>
+      <div class="btn-block">
+        <a href="./menu.html"><button class="button1"><h3><img src="" alt="">TIẾP TỤC XEM SẢN PHẨM</h3></button></a>
+        <a href="./thanh_toan.html"><button class="button2"><h3>MUA HÀNG</h3></button></a>
+      </div>
+
+
+
+
+    <p w3-include-html="./footer.html"></p>
+</body>
+</html>

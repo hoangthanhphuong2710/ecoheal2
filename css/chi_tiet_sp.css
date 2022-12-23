@@ -1,0 +1,292 @@
+body {
+  font-family: "Inter";
+  font-weight: normal;
+  font-style: normal;
+}
+button:hover {
+  background-color: rgb(136, 175, 154);
+}
+.mo_ta_text {
+  padding-left: 50px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: black;
+}
+.container {
+  display: flex;
+}
+.hr-green {
+  background: #9ccd62;
+}
+.anh_san_pham {
+  padding-left: 50px;
+}
+.sao {
+  height: 15px;
+  width: 15px;
+  /* padding-top: -10px; */
+}
+.container_gia_goc {
+  display: flex;
+}
+.gia_goc_text {
+  font-size: 22px;
+}
+.gia_goc {
+  font-size: 22px;
+  text-decoration: line-through;
+  margin-top: -1px;
+  margin-left: 10px;
+}
+.gia_khuyen_mai {
+  display: flex;
+}
+.phan_tram {
+  text-align: center;
+}
+.khuyen_mai {
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: #9ccd62;
+  border-radius: 20px;
+  height: fit-content;
+  font-weight: bold;
+}
+.gia_sp {
+  font-size: 32px;
+}
+.gia_sp_khuyen_mai {
+  font-size: 32px;
+  color: red;
+}
+.danh_gia {
+  font-size: 24px;
+}
+.quantity {
+  display: flex;
+  padding-bottom: 60px;
+}
+.right {
+  margin-left: 50px;
+}
+.quantity1 {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 50px;
+  white-space: nowrap;
+  vertical-align: top;
+  opacity: 1;
+}
+.muangay-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c4c4c4;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 100px;
+  margin-left: 20px;
+}
+.chitietsp-box {
+  padding: 10px;
+  max-width: 1000px;
+  margin: auto;
+}
+.tang {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  line-height: 1;
+  background-color: #383748;
+  border: none;
+  color: white;
+}
+.input-qty {
+  background-color: #fff;
+  height: 1.8rem;
+  text-align: center;
+  font-size: 1rem;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  /* border-top: 1px solid black;
+  border-bottom: 1px solid black; */
+  border: 1px solid black;
+  /* border-left: 0;
+  border-right: 0; */
+  padding: 0;
+  width: 40px;
+}
+.add {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.addcart {
+  display: flex;
+  text-transform: capitalize;
+  align-items: center;
+  justify-content: center;
+  line-height: 48px;
+  width: 300px;
+  background-color: #9ccd62;
+  text-align: center;
+  height: 48px;
+  border: none;
+  border-radius: 10px;
+}
+.addcart_text {
+  font-size: 18px;
+}
+.buy_text {
+  font-size: 18px;
+}
+.buy {
+  align-items: center;
+  justify-content: center;
+  background-color: #e1f0d0;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 150px;
+  text-align: center;
+}
+
+.review {
+  display: flex;
+}
+.review_text {
+  margin-left: 20px;
+  margin-top: -20px;
+}
+.review_1 {
+  margin-top: -10px;
+}
+.sao_review {
+  margin-top: -5px;
+}
+.review_1 {
+  font-size: 20px;
+}
+tr,
+td {
+  border: 1px solid #9ccd62;
+  width: 800px;
+  padding: 20px;
+}
+table {
+  padding-left: 150px;
+}
+h2 {
+  padding-left: 60px;
+}
+.detail {
+  padding-left: 60px;
+}
+.info {
+  background-color: #e0ddca;
+  width: 200px;
+  height: 100%;
+  /* margin-top: -10px; */
+  text-align: center;
+}
+.img-full {
+  width: 100%;
+  max-width: 500px;
+}
+.img {
+  flex: 1;
+}
+.icon1 {
+  width: 15px;
+  height: 15px;
+}
+.icon2 {
+  width: 15px;
+  height: 15px;
+}
+.price-box {
+  border-radius: 10px;
+  width: 155px;
+  height: 50px;
+  text-align: center;
+  margin-left: 70px;
+  background-color: #f6f8e2;
+  line-height: 50px;
+}
+.content {
+  text-align: center;
+  margin-top: -30px;
+  width: 293px;
+  height: 180px;
+}
+.name {
+  padding-top: 30px;
+  font-size: 23px;
+}
+
+.price {
+  font-size: 23px;
+}
+#otherProduct {
+  display: flex;
+  justify-content: center;
+}
+#otherProduct_more {
+  display: flex;
+  display: none;
+  justify-content: center;
+}
+#otherProduct_more_more {
+  display: none;
+  padding-top: 40px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+#xem_them {
+  text-align: center;
+  background-color: #e0ddca;
+  border: none;
+  border-radius: 10px;
+  width: 346px;
+  height: 62px;
+  display: inline-block;
+}
+.container_xem_them {
+  text-align: center;
+  margin-top: 40px;
+}
+.so_luong_text {
+  font-size: 24px;
+}
+.description {
+  margin-left: 10px;
+}
+.contentchitiet {
+  flex: 1;
+  padding: 0 80px;
+}
+.math-button {
+  background-color: gray;
+  padding: 5px;
+}
+.soluongbox {
+  margin-top: 30px;
+}
+.sanphamkhac {
+  display: flex;
+  justify-content: space-between;
+}
+.img-spkhac {
+  max-width: 400px;
+  height: 400px;
+}
+.img-full-spkhac {
+  width: 100%;
+  height: 100%;
+}

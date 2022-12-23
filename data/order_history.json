@@ -1,0 +1,87 @@
+[
+    {
+        "id": "EC-01",
+        "time": "11:35, 11/07/2022",
+        "total_price": "220.000",
+        "status": "Đang giao",
+        "voucher": "Giáng sinh vui vẻ",
+        "shipping_fee": "20.000",
+        "discount": "-20.000",
+        "phone":"0933290554",
+        "address": "KTX KHU B - ĐHQG, TP. HCM",
+        "shipping_company": "GHTK",
+        "total_order": "220.000VNĐ",
+        "products": 
+        [
+            {
+                "name_product": "Biscotti Vani",
+                "img1_url": "./B-11-1.jpg",
+                "price": "110.000",
+                "quantity": "1"
+            },
+            {
+                "name_product": "Granola Matcha",
+                "img1_url": "./G-02-1.jpg",
+                "price": "130.000",
+                "quantity": "1"
+            }
+        ],
+        "test": ["Ford", "BMW", "Fiat"]
+    },
+    {
+        "id": "EC-02",
+        "time": "16:45, 01/12/2022",
+        "total_price": "110.000",
+        "status": "Đã giao",
+        "voucher": "Giáng sinh vui vẻ",
+        "shipping_fee": "20.000",
+        "discount": "-20.000",
+        "phone":"0933290555",
+        "address": "KTX KHU A - ĐHQG, TP. HCM",
+        "shipping_company": "GHTK",
+        "total_order": "220.000VNĐ",
+        "products": 
+        [
+            {
+                "name_product": "Bơ hạt điều ăn kiêng",
+                "img1_url": "./B-01_1.jpg",
+                "price": "210.000",
+                "quantity": "2"
+            },
+            {
+                "name_product": "Granola Matcha",
+                "img1_url": "./G-02-1.jpg",
+                "price": "130.000",
+                "quantity": "1"
+            }
+        ]
+    },
+    {
+        "id": "EC-03",
+        "time": "7:45, 08/12/2022",
+        "total_price": "230.000",
+        "status": "Đã giao",
+        "voucher": "Giáng sinh vui vẻ",
+        "shipping_fee": "20.000",
+        "discount": "-20.000",
+        "phone":"0933290555",
+        "address": "KTX KHU A - ĐHQG, TP. HCM",
+        "shipping_company": "GHTK",
+        "total_order": "220.000VNĐ",
+        "products": 
+        [
+            {
+                "name_product": "Granola Matcha",
+                "img1_url": "./G-02-1.jpg",
+                "price": "130.000",
+                "quantity": "1"
+            },
+            {
+                "name_product": "Biscotti Vani",
+                "img1_url": "./B-11-1.jpg",
+                "price": "110.000",
+                "quantity": "1"
+            }
+        ]
+    }
+]

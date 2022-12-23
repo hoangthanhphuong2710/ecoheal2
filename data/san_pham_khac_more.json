@@ -1,0 +1,52 @@
+[
+  {
+    "img_url": "../img/granolachoco.jpg",
+    "name": "Granola Choco",
+    "icon1_url": "../img/da_ban.png",
+    "sold": "140",
+    "icon2_url": "../img/ngoi_sao.png",
+    "star": "4.7",
+    "price": "130.000",
+    "link": "../src/Chi_tiet_sp_granolachoco.html"
+  },
+  {
+    "img_url": "../img/granolacookies.jpg",
+    "name": "Granola Cookies",
+    "icon1_url": "../img/da_ban.png",
+    "sold": "159",
+    "icon2_url": "../img/ngoi_sao.png",
+    "star": "4.8",
+    "price": "130.000",
+    "link": "../src/Chi_tiet_sp_granolacookies.html"
+  },
+  {
+    "img_url": "../img/bohatdieu.jpg",
+    "name": "Bơ hạt điều ăn kiêng",
+    "icon1_url": "../img/da_ban.png",
+    "sold": "137",
+    "icon2_url": "../img/ngoi_sao.png",
+    "star": "4.7",
+    "price": "110.000",
+    "link": "../src/Chi_tiet_sp_bohatdieu.html"
+  },
+  {
+    "img_url": "../img/bohanhnhan.jpeg",
+    "name": "Bơ hạnh nhân ăn kiêng",
+    "icon1_url": "../img/da_ban.png",
+    "sold": "140",
+    "icon2_url": "../img/ngoi_sao.png",
+    "star": "4.7",
+    "price": "110.000",
+    "link": "../src/Chi_tiet_sp_bohanhnhan.html"
+  },
+  {
+    "img_url": "../img/bodauphong.webp",
+    "name": "Bơ đậu phộng ăn kiêng",
+    "icon1_url": "../img/da_ban.png",
+    "sold": "230",
+    "icon2_url": "../img/ngoi_sao.png",
+    "star": "4.6",
+    "price": "110.000",
+    "link": "../src/Chi_tiet_sp_bodauphong.html"
+  }
+]

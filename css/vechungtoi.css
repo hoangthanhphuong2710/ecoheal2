@@ -1,0 +1,54 @@
+body, html{
+    margin: 0;
+    width: 1728px;
+}
+@font-face{
+    src:url(../Inter-VariableFont_slnt\,wght.ttf);
+    font-family: inter;
+}
+.anh_top{
+    height: 494px;
+}
+.logo1{
+    display: flex;
+}
+.logo2{
+    display: flex;
+}
+.logo_size{
+    justify-self: center;
+}
+.logo_size{
+    width: 175px;
+    height: 130px;
+}
+.center{
+    text-align: center;
+}
+.logo{
+    width: 100px;
+    position: relative;
+}
+.logo1{
+    justify-content: space-evenly;
+}
+.logo2{
+    justify-content: space-evenly;
+}
+.box-lienket{
+    justify-content: space-evenly;
+    display: flex;
+}
+.lienket{
+    justify-self: center;
+    flex: 1;
+    width: 100px;
+    height: 100px;
+}
+.homepage_banner{
+    padding: 120px 0px 140px 436px;
+    margin: 20px 0px;
+    background-image: url(../img/homepage_banner_1.png);
+    font-family: 'Inter';
+    color: rgb(255, 255, 255);
+}

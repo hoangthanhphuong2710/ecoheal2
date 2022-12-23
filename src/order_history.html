@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order History</title>
+    <link rel="stylesheet" href="../css/order_history.css">
+    <script defer src="./order_history.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+<body onload="loadOrder()">
+    <p w3-include-html="./headeruser.html"></p>
+    <script>
+      w3.includeHTML();
+    </script>
+        <!--Order History-->
+        <div id="order_history">
+
+            <div class="search_order">
+                <input class= "search_order_input" type="text" placeholder="Nhập ID Đơn Đặt Hàng"/><i  class="fa fa-search fa-2x"></i>
+            </div>
+        
+            <div class="order" id="order">
+            </div>
+        
+        </div>
+    
+    <!--Footer-->
+    <p w3-include-html="./footer.html"></p>
+</div>
+</body>
+</html>

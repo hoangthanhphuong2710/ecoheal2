@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh gia san pham</title>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <style>
+        .imgsp{
+            width: 80px;
+            height: 80px;
+            margin: 10px;
+        }
+        .sanpham{
+            display: flex;
+        }
+        .khungsp{
+            padding: 10px 50px;
+            border-width: 1px;
+            border-style: solid;
+        }
+        .danhgia{
+            margin: 20px;
+        }
+        .item1{
+            width: 65%;
+        }
+        .item2{
+            width: 15%;
+        }
+        .anhbutton{
+            width: 30px;
+            height: 30px;
+        }
+        .binhluan{
+            display: flex;
+        }
+        textarea{
+            width: 98%;
+        }
+        .tienich{
+            width: 100%;
+            height: 100px;
+        }
+        .sao{
+            width: 20px;
+            height: 20px;
+        }
+        .danhgia{
+            display: flex;    
+            align-items: center;
+        }
+        .ketqua{
+            padding-left: 10px;
+        }
+        .buttonsao{
+            background-color: white;
+            border: 0;
+        }
+        h1{
+            padding: 20px 30px;
+        }
+        .khung{
+            padding: 20px 90px;
+        }
+    </style>
+</head>
+<body>
+    <p w3-include-html="./headeruser.html"></p>
+    <script>
+      w3.includeHTML();
+    </script>
+    <h1>Đánh giá sản phẩm</h1>
+    <div class="khung">
+    <div class="khungsp">
+        <h3>Tên sản phẩm</h3>
+        <div class="sanpham">
+            <img class="imgsp" src="../img/biscotti matcha FIX1.jpg" alt="">
+            <div>
+                <p>Biscotti trà xanh</p>
+                <p>Số lượng: 1</p>
+            </div>
+        </div>
+        <div class="danhgia">
+            <div class="5sao">
+                <button class="buttonsao" onclick='document.getElementById("demo").innerHTML = "Rất tệ"'>
+                    <img src="../img/star (1).png" alt="" class="sao">
+                </button>
+                <button class="buttonsao" onclick='document.getElementById("demo").innerHTML = "Tệ"'>
+                    <img src="../img/star (1).png" alt="" class="sao">
+                </button>
+                <button class="buttonsao" onclick='document.getElementById("demo").innerHTML = "Bình thường"'>
+                    <img src="../img/star (1).png" alt="" class="sao">
+                </button>
+                <button class="buttonsao" onclick='document.getElementById("demo").innerHTML = "Tốt"'>
+                    <img src="../img/star (1).png" alt="" class="sao">
+                </button>
+                <button class="buttonsao" onclick='document.getElementById("demo").innerHTML = "Xuất sắc"'>
+                    <img src="../img/star (1).png" alt="" class="sao">
+                </button>
+            </div>
+            <div class="ketqua">
+                <p id="demo"></p>
+            </div>
+        </div>
+        <div class="binhluan">
+            <div class="item1">
+                <textarea name="nhapbinhluan" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="item2">
+                <button class="tienich">
+                    <img class="anhbutton" src="../img/photo-camera-interface-symbol-for-button(fix).png" alt="">
+                    <p><i>Thêm hình ảnh</i></p>
+                </button>
+            </div>
+            <div class="item2">
+                <button class="tienich">
+                    <img class="anhbutton" src="../img/video-camera-with-play-button.png" alt="">
+                    <p><i>Thêm video</i></p>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="khungsp">
+        <h3>Tên sản phẩm</h3>
+        <div class="sanpham">
+            <img class="imgsp" src="../img/biscotti choco 1.jpg" alt="">
+            <div>
+                <p>Biscotti Choco</p>
+                <p>Số lượng: 1</p>
+            </div>
+        </div>
+        <div class="danhgia">
+            <div class="5sao">
+                <button class="buttonsao" onclick='document.getElementById("demo2").innerHTML = "Rất tệ"'>
+                    <img src="../img/star (1).png" alt="" class="sao">
+                </button>
+                <button class="buttonsao" onclick='document.getElementById("demo2").innerHTML = "Tệ"'>
+                    <img src="../img/star (1).png" alt="" class="sao">
+                </button>
+                <button class="buttonsao" onclick='document.getElementById("demo2").innerHTML = "Bình thường"'>
+                    <img src="../img/star (1).png" alt="" class="sao">
+                </button>
+                <button class="buttonsao" onclick='document.getElementById("demo2").innerHTML = "Tốt"'>
+                    <img src="../img/star (1).png" alt="" class="sao">
+                </button>
+                <button class="buttonsao" onclick='document.getElementById("demo2").innerHTML = "Xuất sắc"'>
+                    <img src="../img/star (1).png" alt="" class="sao">
+                </button>
+            </div>
+            <div class="ketqua">
+                <p id="demo2"></p>
+            </div>
+        </div>
+        <div class="binhluan">
+            <div class="item1">
+                <textarea name="nhapbinhluan" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="item2">
+                <button class="tienich">
+                    <img class="anhbutton" src="../img/photo-camera-interface-symbol-for-button(fix).png" alt="">
+                    <p><i>Thêm hình ảnh</i></p>
+                </button>
+            </div>
+            <div class="item2">
+                <button class="tienich">
+                    <img class="anhbutton" src="../img/video-camera-with-play-button.png" alt="">
+                    <p><i>Thêm video</i></p>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<p w3-include-html="./footer.html"></p>
+</body>
+</html>
