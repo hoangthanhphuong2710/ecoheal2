@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Granola Matcha</title>
+    
+    <style >
+      @import url(../css/chi_tiet_sp.css);
+    </style>
+    <script src="./chi_tiet_san_pham.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+  </head>
+  <body>
+    <p w3-include-html="./headeruser.html"></p>
+    <script>
+      w3.includeHTML();
+    </script>
+    <div class="san_pham">
+      <p class="mo_ta_text">MENU/CHI TIẾT SẢN PHẨM/ Granola Vani</p>
+      <div class="container">
+        <div class="left">
+          <img
+          class="anh_san_pham"
+            src="../img/granolavani.jpg"
+            alt="Granola Vani"
+            width="590px"
+            height="750px"
+          />
+        </div>
+        <div class="right">
+          <p style="font-size: 48px"><b>Granola Vani</b></p>
+          <p class="danh_gia">
+            4.5 <img src="../img/ngoi_sao.png" class="sao" /><img
+              src="../img/ngoi_sao.png"
+              class="sao"
+            /><img src="../img/ngoi_sao.png" class="sao" /><img
+              src="../img/ngoi_sao.png"
+              class="sao"
+            /><img src="../img/ngoi_sao.png" class="sao" />| 55 đánh giá | 159 đã bán
+          </p>
+          <hr style="background-color: #9ccd62" />
+          <div class="container_gia_goc">
+          <span class="gia_goc_text">GIÁ GỐC:</span> <p class="gia_goc">130.000</p>
+          </div>
+          <div class="gia_khuyen_mai">
+          <p class="gia_sp_khuyen_mai">GIÁ: 104.000VNĐ</p>
+            <div class="khuyen_mai">
+              <p class="phan_tram">GIẢM 20%</p>
+            </div>
+          </div>
+          <div class="quantity">
+            <p class="so_luong_text">Số lượng</p>
+            <div class="quantity1">
+                <input class="tang is-form" type="button" value="-" onclick="handleMinus()">
+                <input aria-label="quantity" class="input-qty" id="qty" max="1000" min="1"  type="number" value="1">
+                <input class="giam is-form" type="button" value="+" onclick="handlePlus()">
+            </div>
+          </div>
+          <div class="add">
+            <a href="./giohang.html">
+            <button class="addcart" type="button">
+              <img src="../img/gio_hang.png" height="40px" width="30px" />
+              <span class="addcart_text">Thêm vào giỏ hàng</span>
+            </button>
+          </a>
+          <a href="./giohang.html">
+            <button type="button" class="buy"><span class="buy_text">Mua ngay</span></button>
+          </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mo_ta_san_pham">
+      <hr />
+      <h2>MÔ TẢ SẢN PHẨM</h2>
+      <p class="detail">
+        <i
+          >Món ăn vặt không còn xa lạ với dân Eat Clean, bánh chuẩn HEALTHY khi được làm hoàn toàn từ 100% bột mì Nguyên cám, Trứng gà, Bơ lạt và tạo ngọt bằng Mật ong. Đặc biệt hơn, bánh có hàm lượng dinh dưỡng cao khi được kết hợp với nhiều loại hạt khác nhau như: hạt Hạnh nhân, hạt Điều, hạt Bí, Nho khô và Mơ sấy dẻo không đường. Ngoài vị vani truyền thống còn có vị matcha và choco, mang đến nhiều sự lựa chọn đa dạng cho khách hàng.</i
+        >
+      </p>
+      <p class="detail">
+        <i
+          >Đặc biệt hơn, bánh có hàm lượng dinh dưỡng cao khi được kết hợp với
+          nhiều loại hạt khác nhau như: hạt Hạnh nhân, hạt Điều, hạt Bí, Nho khô
+          và Mơ sấy dẻo không đường.</i
+        >
+      </p>
+      <p class="detail">
+        <i
+          >Ngoài vị vani truyền thống còn có vị matcha và choco, mang đến nhiều
+          sự lựa chọn đa dạng cho khách hàng.</i
+        >
+      </p>
+    </div>
+    <hr/>
+    <div class="danh_gia_san_pham">
+      <h2>ĐÁNH GIÁ SẢN PHẨM</h2>
+      <table>
+        <tr>
+          <td>
+            <div class="review">
+              <img src="../img/avt.png" width="50px" height="50px" />
+              <div class="review_text">
+                <p>Võ Hồng Ngọc</p>
+                <div class="sao_review">
+                  <img src="../img/ngoi_sao.png" class="sao" /><img
+                    src="../img/ngoi_sao.png"
+                    class="sao"
+                  /><img src="../img/ngoi_sao.png"class="sao" /><img
+                    src="../img/ngoi_sao.png"
+                    class="sao"
+                  /><img src="../img/ngoi_sao.png" class="sao" />
+              </div>
+                <span  class="review_1">09:30 21/10/2022<br/>
+                  Ui phải nói là ngon lắm luôn í. Bánh ngon thơm giòn nữa. Rất vừa
+                  miệng. Cảm ơn shop nhiều lắm nhaaa. Nói chung các bạn nên mua
+                  dùng đi nhaaaaa
+                </span>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="review">
+              <img src="../img/avt.png" width="50px" height="50px" />
+              <div class="review_text">
+                <p>Nguyễn Hoàng Tính</p>
+                <div class="sao_review">
+                  <img src="../img/ngoi_sao.png" class="sao" /><img
+                    src="../img/ngoi_sao.png"
+                    class="sao"
+                  /><img src="../img/ngoi_sao.png" class="sao" /><img
+                    src="../img/ngoi_sao.png"
+                    class="sao"
+                  /><img src="../img/ngoi_sao.png" class="sao" />
+              </div>
+                <span  class="review_1">12:40 10/10/2022<br/>
+                  Bánh matcha cực kỳ thơm mùi matcha, vừa mở túi bánh ra là thơm ngào ngạt luôn. Sản phẩm mình ăn cảm nhận được làm ngọt từ mật ong chứ không phải kiểu ngọt từ đường hóa học
+                </span>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="review">
+              <img src="../img/avt.png" width="50px" height="50px" />
+              <div class="review_text">
+                <p>Trần Thị Bích Trâm</p>
+                <div class="sao_review">
+                  <img src="../img/ngoi_sao.png" class="sao" /><img
+                    src="../img/ngoi_sao.png"
+                    class="sao"
+                  /><img src="../img/ngoi_sao.png" class="sao" /><img
+                    src="../img/ngoi_sao.png"
+                    class="sao"
+                  /><img src="../img/ngoi_sao.png" class="sao" />
+              </div>
+                <span  class="review_1">07:40 08/10/2022<br/>
+                  Hàng đóng gói nhanh, shipper thân thiện là điểm cộng nha. Sản phẩm có độ cứng vừa phải đảm bảo được răng niềng vẫn ăn được, khi ăn mình cảm nhận được sản phẩm hoàn toàn từ bột cám nguyên chất nên phù hợp với những bạn đang giảm cân nè
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="review">
+              <img src="../img/avt.png" width="50px" height="50px" />
+              <div class="review_text">
+                <p>Hoàng Thị Thanh Phương</p>
+                <div class="sao_review">
+                  <img src="../img/ngoi_sao.png" class="sao" /><img
+                    src="../img/ngoi_sao.png"
+                    class="sao"
+                  /><img src="../img/ngoi_sao.png" class="sao" /><img
+                    src="../img/ngoi_sao.png"
+                    class="sao"
+                  /><img src="../img/ngoi_sao.png" class="sao" />
+              </div>
+                <span  class="review_1">18:20 06/10/2022<br/>
+                  Bánh phù hợp với các bạn nghiện ăn vặt nhưng sợ mập nè, mình thích cách đóng gói của shop không những vậy bánh có vấn đề mình liên hệ thì được shop tư vấn và đổi trả rất nhiệt tình. Đây là sản phẩm mình nghĩ các bạn nên có ngay cho mình.
+                </span>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <hr/>
+    <h2> CÁC SẢN PHẨM KHÁC</h2>
+    <div id="otherProduct" onload="loadProducts()"></div>
+    <div class="container_xem_them">
+    <button type="button" id="xem_them" onclick="showOtherProducts()"><p>Xem Thêm</p></button>
+    </div>
+    <div id="otherProduct_more" onload="loadMore()"></div>
+    <div id="otherProduct_more_more" onload="loadMore_More()"></div>
+    <p w3-include-html="./footer.html"></p>
+    <!-- Tang Giam So Luong San Pham -->
+    <script>
+      let amountElement = document.getElementById("qty");
+      let amount = amountElement.value;
+      let render = (amount) => {
+        amountElement.value = amount;
+      };
+      let handlePlus = () => {
+        amount++;
+        render(amount);
+      };
+      let handleMinus = () => {
+        if (amount > 1) {
+          amount--;
+        }
+        render(amount);
+      };
+      amountElement.addEventListener("input", () => {
+        amount = amountElement.value;
+        amount = parseInt(amount);
+        amount = isNaN(amount) || amount == 0 ? 1 : amount;
+        render(amount);
+        console.log(amount);
+      });
+    </script>
+  </body>
+</html>

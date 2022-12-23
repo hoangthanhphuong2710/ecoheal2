@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TIN TỨC</title>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script src="../data/tin tức sự kiện.json"></script>
+    <script defer src="./news.js"></script>
+    <script src="./tintuc_sukien.js"></script>
+    <link rel="stylesheet" href="../css/news.css" />
+  </head>
+  <body>
+    <p w3-include-html="./headerfix.html"></p>
+    <script>
+      w3.includeHTML();
+    </script>
+    <div class="flex-box">
+      <div>
+        <h2>
+          <a
+            class="tieude activeCategory"
+            href="./sukien.html"
+            target="newsCategory"
+            id="sukienLink"
+            onclick="addActiveNews('sukienLink')"
+            >SỰ KIỆN</a
+          >
+        </h2>
+      </div>
+      <div>
+        <h2>
+          <a
+            class="tieude"
+            href="./songkhoe.html"
+            target="newsCategory"
+            id="songkhoeLink"
+            onclick="addActiveNews('songkhoeLink')"
+            >SỐNG KHỎE</a
+          >
+        </h2>
+      </div>
+    </div>
+    <div class="news-frame">
+      <iframe
+        src="sukien.html"
+        name="newsCategory"
+        height="600px"
+        width="100%"
+        title="Iframe Example"
+      ></iframe>
+    </div>
+  </body>
+</html>
