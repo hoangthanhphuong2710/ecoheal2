@@ -1,0 +1,159 @@
+body{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    font-family: "Inter";
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+    src:url(./Inter-VariableFont_slnt\,wght.ttf);
+    font-family: inter;
+}
+.img-bg{
+    position: absolute;
+    top: 0;
+    width:100%;
+    left: 0;
+    height: 100%;
+}
+.img-bg img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* Update Information*/
+.register_main{
+    font-family: inter;
+    padding: 90px 1100px;
+    position: relative;
+
+}
+.register_box{
+    background-color: #E0DDCA;
+    width: 1094px;
+    height: 1135px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.41);
+    border-radius: 62px;
+    padding: 5px 55px;
+}
+.register_p1{
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    margin: 30px;
+}
+.input_infor{
+    display: flex;
+}
+.input_infor_item{
+   margin-right: 100px;
+   margin-left: 20px;
+}
+.form-row{
+    margin-bottom: 50px;
+    width: 490px;
+    height: 140px;
+}
+.form__label{
+    color: #282A2C;
+    font-size: 28px;
+    font-weight: 300;
+}
+.form-input{
+    width: 433px;
+    border: 1px solid #5b4747b4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+    height: 94px;
+    margin: 20px 0px;
+    font-size: 20px;
+    padding-left: 30px;
+}
+.gender{
+    display: flex;
+}
+.gender_item{
+    margin-top: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 60px;
+}
+.label_gender{
+    font-size: 25px;
+}
+.input_gender{
+   height: 30px;
+   width: 30px;
+   margin: 10px;
+}
+.term{
+    position: relative;
+    margin-bottom: 50px;
+}
+.input_checkbox{
+    height: 30px;
+    width: 30px;
+}
+.label_checkbox{
+    font-size: 25px;
+    top:3px;
+    position: absolute;
+}
+.back_login{
+    text-align: right;
+    font-size: 24px;
+}
+/*Footer*/
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background: #9CCD62;
+    padding: 20px 306px;
+    font-family: inter;
+    font-size: 16px;
+}
+.footer ul{
+    margin: 0px;
+    list-style: none;
+}
+.footer li{
+    padding: 7px;
+}
+.footer i{
+    padding: 0px 5px 10px;
+}
+.footer a{
+    color: black;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.footer_line{
+    width: 350px;
+    border: 0.5px solid rgb(78, 78, 78);
+    border-radius: 30px;
+}
+.footer_copy{
+    font-family:Roboto;
+    color: white;
+    font-size: 18px;
+    margin: 15px 0px 0px;
+}
+.register_main .form-group button{
+    background: #cfd1bf;
+    color: #000000;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    height: 80px;
+    font-size:36px;
+    width: 450px;
+    cursor: pointer;
+    justify-content: center;
+}
